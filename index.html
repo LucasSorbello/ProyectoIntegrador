@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELETS</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    
+    <div class="nav-bg">
+
+        
+        <nav class="nav-bar container">
+
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+
+            <a href="#servicios">Servicios</a>    
+            <a href="#contacto">Contacto</a>        
+            <a href="login.html">Inicia Sesion</a>        
+            <a href="registro.html">Crea tu cuenta</a>        
+                  
+        </nav>
+    </div>
+    
+    <section class="hero" id="inicio">
+        <div class="contenido-hero">
+            <h2>SOLUCIONES<span> INFORMATICAS</span></h2>
+
+        <p> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="60" height="60" viewBox="0 0 24 24" stroke-width="2" stroke="#6f32be" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <circle cx="12" cy="11" r="3" />
+            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+          </svg>
+        Argentina,Buenos Aires </p>
+
+        <a href="#" class="boton">Contacto</a>
+        </div>
+    </section>
+
+    
+
+    <main class="container sombra" id="servicios">
+        <h2>Mis servicios</h2>
+
+        <div class="servicios">
+
+                <section class="servicio">
+                    <h3>Instalacion de equipos</h3>
+
+                        <div class="iconos">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices-pc" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round"  stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M3 5h6v14h-6z" />
+                                    <path d="M12 9h10v7h-10z" />
+                                    <path d="M14 19h6" />
+                                    <path d="M17 16v3" />
+                                    <path d="M6 13v.01" />
+                                    <path d="M6 16v.01" />
+                            </svg>
+                        </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure vel accusamus nulla fugit aspernatur quae commodi placeat, vero aut inventore neque. Illo aliquid soluta laboriosam quia, nihil ut sint ex!</p>
+                </section>
+
+                <section class="servicio">
+
+
+                    <h3>Mantenimiento de equipos</h3>
+
+                        <div class="iconos">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tool" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M7 10h3v-3l-3.5 -3.5a6 6 0 0 1 8 8l6 6a2 2 0 0 1 -3 3l-6 -6a6 6 0 0 1 -8 -8l3.5 3.5" />
+                                </svg>
+                        </div>
+
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, deserunt! Perspiciatis tempora dolorum ut quam voluptates reiciendis impedit sit doloribus facilis odio similique, tenetur deserunt inventore molestias quasi cum aspernatur?
+                        </p>
+                </section>
+
+                <section class="servicio">
+                    <h3>Optimizacion</h3>
+
+                        <div class="iconos">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <polyline points="13 3 13 10 19 10 11 21 11 14 5 14 13 3" />
+                                </svg>
+                        </div>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, necessitatibus aperiam. Fugiat eos quasi odit non! Labore, dolorum, ipsa repellat tempore odit numquam error deleniti fuga, quasi rerum magni libero.</p>
+                </section>
+
+        </div>
+    
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+
+        <form class="formulario">
+            <fieldset>
+                <legend>Completa el formulario para recibir ayuda</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu Nombre">
+                    </div>
+    
+                    <div class="campo">
+                        <label>Telefono</label>
+                        <input class="input-text" type="tel" placeholder="Tu telefono">
+                    </div>
+    
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="input-text" placeholder="Escribe tu consulta"></textarea>
+                    </div>
+                
+                </div>
+
+                <div class="enviar">
+                    <input class="boton w-100"type="submit" name="enviar" id="">
+                </div>
+
+                
+            </fieldset>
+        </form>
+
+    </section>
+</main>
+    <footer>
+        <p>
+            Todos los derechos Reservados <span>Lucas Sorbello</span></p>
+    </footer>
+</body>
+</html>
